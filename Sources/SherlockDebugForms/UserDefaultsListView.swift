@@ -127,11 +127,11 @@ public struct UserDefaultsListSectionsView: View, SherlockView
     {
         self.searchText = searchText
         self.userDefaults = userDefaults
+        self.editConfiguration = editConfiguration
 
         self.keyValues = userDefaults.getKeyValues()
 
         self.listFilter = listFilter
-        self.editConfiguration = editConfiguration
         self.maxCellHeight = maxCellHeight
         self.maxRecentlyUsedCount = maxRecentlyUsedCount
         self.sectionHeader = sectionHeader
